@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+} */
+/* .div{
+    width: 250px;
+    height: 250px;
+    margin: 100px auto ;
+    border: 1px solid black;
+} */
+/* .div1{
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    top: 0;
+    z-index: 30;
+
+} */
+/* .div2{
+    border-radius: 50%;
+    margin-top: 140px;
+    margin-left: -20px;
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 50;
+} */
+/* .div3{
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: -70px;
+    background-color: blueviolet;
+
+} */
+
+.parent{
+    border: 2px solid;
+    border-style: dashed;
+    border-color: magenta;
+    height: 450px;
+    width: 550px;
+    margin: 100px auto;
+}
+
+.relative{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+    
+    border-radius: 50%;
+    background-color: rgb(252, 94, 94);
+   
+    position: relative;
+    top: 20px;
+    left: 150px;
+    z-index: 5;
+    /* background: conic-gradient(red 0deg 90deg, purple 90deg 135deg, white 135deg 225deg, yellow 225deg 270deg, red 270deg 360deg); */
+}
+.absolute{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* margin-top: 120px; */
+    background-color: rgb(173, 255, 47);
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    z-index: 100;
+    
+}
+.thirdcircle{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* margin-top: -70px;
+    margin-left: 120px; */
+    background-color: rgba(0, 0, 255);
+    position: relative;
+    top: -128px ;
+    left: 210px;
+    z-index: 2;
+}
+
+.all{
+    mix-blend-mode: screen;
+}
